@@ -1,5 +1,13 @@
 # dex-method-counts
 
+
+##Setup
+.jar file is now included in the project. Place the jar file in the build folder at root of the project. also copy the dex-method-counts pligin into your project.
+
+I used the following post to help build the .jar file.
+http://stackoverflow.com/questions/2025607/how-to-create-a-jar-file-or-export-jar-on-intellij-like-eclipse-java-archive-e
+
+
 Simple tool to output per-package method counts in an Android DEX executable grouped by package, to aid in getting under the 65,536 referenced method limit. More details are [in this blog post](http://blog.persistent.info/2014/05/per-package-method-counts-for-androids.html).
 
 To run it with Ant:
