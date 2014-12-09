@@ -7,9 +7,10 @@ I used the following post to help build the .jar file.
 http://stackoverflow.com/questions/2025607/how-to-create-a-jar-file-or-export-jar-on-intellij-like-eclipse-java-archive-e
 
 Some bash scripts:
-dexter(){ ./dex-method-counts "$@";  }
-dexf(){ ./dex-method-counts --package-filter="$@" "$@";  }
-dex(){ ./dex-method-counts --include-classes --package-filter="$@" "$@";  }
+
+* dexter(){ ./dex-method-counts "$@";  }
+* dexf(){ ./dex-method-counts --package-filter="$@" "$@";  }
+* dex(){ ./dex-method-counts --include-classes --package-filter="$@" "$@";  }
 
 
 --------------------------------
