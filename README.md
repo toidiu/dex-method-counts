@@ -1,5 +1,5 @@
 #Setup
-# .jar file is now included in the project. Place the jar file in the '/build/jar' folder at root of the project. also copy the dex-method-counts plugin into your project root.
+*.jar file is now included in the project. Place the jar file in the '/build/jar' folder at root of the project. also copy the dex-method-counts plugin into your project root.
 
 
 I used the following post to help build the .jar file.
